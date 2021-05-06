@@ -12,6 +12,10 @@
     - [How Data is Stored on Disk](#how-data-is-stored-on-disk)
     - [Single Field Indexes Part 1](#single-field-indexes-part-1)
     - [Single Field Indexes Part 2](#single-field-indexes-part-2)
+      - [Explain](#explain)
+         - [explain()][#explain-with-minium-info]
+         - [explain("executionStats")] [#explain-with-status-info]
+         - [explain("allPlansExecution")] [#explain-with-maximum-info]	 	
     - [Sorting with Indexes](#sorting-with-indexes)
       - [Methods for sorting](#methods-for-sorting)
       - [In-Memory Sorting](#in-memory-sorting)
